@@ -40,7 +40,13 @@ body {
 
 }
 .titulo {
-  margin-bottom: 180px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-end;
+  margin-bottom: 60%;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: rgb(212, 11, 11);
   position: absolute;
@@ -49,6 +55,7 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+
 }
 @keyframes fadeIn {
   from {
@@ -104,7 +111,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.9);
+  transform: scale(0.7);
   /*margin-bottom: 100px;
   */
 }
