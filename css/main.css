@@ -59,13 +59,13 @@ body {
 
 }
 .titulo {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: flex-start;
-	align-content: flex-start;
-  margin-bottom: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  top: 0; /* Asegura que se muestre en la parte superior */
   font-family: "Arial Narrow", Arial, sans-serif;
   color: rgb(212, 11, 11);
   position: absolute;
