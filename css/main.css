@@ -38,15 +38,34 @@ body {
       letter-spacing: 3px;
   }
 
+  #titulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 90%;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: rgb(212, 11, 11);
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 10px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+    text-align: start;
+    font-size: 6px;
+  }
+
 }
 .titulo {
-  display: flex;
+	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	align-items: flex-start;
-	align-content: flex-end;
-  margin-bottom: 60%;
+	align-content: flex-start;
+  margin-bottom: 30%;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: rgb(212, 11, 11);
   position: absolute;
@@ -120,9 +139,9 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
 .flowers {
       font-size: 14px;
-      margin-bottom: 35%;
+      margin-bottom: 10%;
       letter-spacing: 3px;
-      transform: scale(1.0);
+      transform: scale(0.4);
 }
 
 }
